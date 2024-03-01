@@ -23,6 +23,32 @@
         "id": "https://trentwintermeier.github.io/test-test/pennsound/canvas-1/canvas",
         "type": "Canvas",
         "duration": 123.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://trentwintermeier.github.io/test-test/annotations/pennsound-canvas-1-student-group-3.json",
+            "label": {
+              "none": ["Student Group 3"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://trentwintermeier.github.io/test-test/annotations/pennsound-canvas-1-student-group-2.json",
+            "label": {
+              "none": ["Student Group 2"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://trentwintermeier.github.io/test-test/annotations/pennsound-canvas-1-student-group-1.json",
+            "label": {
+              "none": ["Student Group 1"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://trentwintermeier.github.io/test-test/pennsound/canvas-1/paintings",
