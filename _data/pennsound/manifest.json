@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://trentwintermeier.github.io/test-test/pennsound/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Pennsound" ] },
+    "homepage": [
+      {
+        "id": "https://writing.upenn.edu/pennsound/x/Richetti-Victorian-Dramatic-Monologues.php",
+        "type": "Text",
+        "label": { "en": [ "Pennsound" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://writing.upenn.edu/pennsound/",
+        "type": "Agent",
+        "label": { "en": [ "PennSound" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://trentwintermeier.github.io/test-test/pennsound/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 123.0,
+        "items": [
+          {
+            "id": "https://trentwintermeier.github.io/test-test/pennsound/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://trentwintermeier.github.io/test-test/pennsound/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://media.sas.upenn.edu/pennsound/authors/Richetti/9-25-2020/Richetti-John_Poe_Annabel-Lee_9-16-2020.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 123.0
+                },
+                "target": "https://trentwintermeier.github.io/test-test/pennsound/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
